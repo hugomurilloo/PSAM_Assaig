@@ -62,7 +62,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cvCard1"
         android:layout_width="0dp"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:backgroundTint="@color/primary_variant_dark"
         app:cardCornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -120,7 +120,7 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="70dp"
-                    android:contentDescription="TODO"
+                    android:contentDescription="@string/menu_grafic"
                     android:src="@drawable/ic_bars"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent" />
@@ -132,7 +132,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cvCard2"
         android:layout_width="0dp"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:backgroundTint="@color/primary_variant_dark"
         app:cardCornerRadius="20dp"
         android:layout_marginTop="5dp"
@@ -162,7 +162,7 @@
                     android:layout_width="25dp"
                     android:layout_height="25dp"
                     android:backgroundTint="@color/on_primary"
-                    android:contentDescription="Representació de l'item"
+                    android:contentDescription="@string/menu_grafic"
                     android:src="@drawable/ic_weigth"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -182,7 +182,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="69,3 Kg"
+                    tools:text="69,3 Kg"
                     android:textSize="30sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -191,6 +191,7 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="70dp"
+                    android:contentDescription="@string/menu_grafic"
                     android:src="@drawable/ic_bars"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent" />
@@ -202,7 +203,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cvCard3"
         android:layout_width="0dp"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:backgroundTint="@color/primary_variant_dark"
         app:cardCornerRadius="20dp"
         android:layout_marginTop="5dp"
@@ -232,7 +233,7 @@
                     android:layout_width="25dp"
                     android:layout_height="25dp"
                     android:backgroundTint="@color/on_primary"
-                    android:contentDescription="Representació de l'item"
+                    android:contentDescription="@string/menu_item"
                     android:src="@drawable/ic_pressure"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -243,7 +244,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@color/on_primary"
-                    android:text="Pressió arterial"
+                    android:text="@string/menu_pressi_arterial"
                     android:layout_marginStart="20dp"
                     android:textColor="@color/primary"
                     android:textSize="20sp"
@@ -252,7 +253,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="133/78 mmHg"
+                    tools:text="133/78 mmHg"
                     android:textSize="30sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -261,6 +262,7 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="70dp"
+                    android:contentDescription="@string/menu_item"
                     android:src="@drawable/ic_bars"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent" />

@@ -13,4 +13,6 @@
     <string name="menu_perfil">La menva imatge de perfil</string>
     <string name="menu_item">Representació gràfica de l\'item</string>
     <string name="menu_distancia">Distància caminat o correns</string>
+    <string name="menu_grafic">Imatge per demanar el gràfic d\'evolucióO</string>
+    <string name="menu_pressi_arterial">Pressió arterial</string>
 </resources>
