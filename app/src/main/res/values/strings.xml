@@ -15,4 +15,5 @@
     <string name="menu_distancia">Distància caminat o correns</string>
     <string name="menu_grafic">Imatge per demanar el gràfic d\'evolucióO</string>
     <string name="menu_pressi_arterial">Pressió arterial</string>
+    <string name="ic_bars">ic_bars</string>
 </resources>

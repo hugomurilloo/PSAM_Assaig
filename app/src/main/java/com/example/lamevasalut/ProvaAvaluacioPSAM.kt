@@ -5,10 +5,14 @@ PREGUNTA 01
 Defineix i activa una barra de desplaçament (ScrollBar) a l'aplicació LaMevaSalud.
 Fes que sigui vissible
 
+
+
 PREGUNTA 02
 L'aplicació comença per la pantalla activity_main, però vull que abans de mostrar
 aquesta pantalla es mostri la pantalla de login (login_activity). Modifica el que
 consideris convenient.
+
+ACBADA!!!!
 
 PREGUNTA 03
 Necessito definir les següents categories d'informació mèdica:
@@ -22,6 +26,8 @@ Necessito definir les següents categories d'informació mèdica:
 - Mesures corporal
 - Altres dades
 Com ho faries?
+
+Amb l'scroll bar dins posaria les diferents cards i faria que sigui tot un scroll per a que capiga dins del layout.
 
 PREGUNTA 04
 A partir d'un array de parells, genera la pantalla inicial de la meva salut
@@ -50,9 +56,15 @@ val dadesSalut = listOf(
     Pair("Massa muscular" , "52,1 kg")
 )
 
+
+
 PREGUNTA 05
 A la pantaLla de login, defineix un bottom menú amb sis elements.
 Tens imatges svg a la carpeta res\drawable\resources
+
+
+
+ACABADO
 
  */
 
